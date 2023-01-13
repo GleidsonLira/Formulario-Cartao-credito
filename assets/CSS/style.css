@@ -4,3 +4,10 @@ main{
     display: flex;
     flex-direction: row;
 }
+
+.container__left {
+    background-image: url(../img/bg-main-desktop.png);
+    background-size: cover;
+    width: 30%;
+    height: 100vh;
+}
