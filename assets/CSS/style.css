@@ -11,3 +11,9 @@ main{
     width: 30%;
     height: 100vh;
 }
+
+.container__right {
+    width: 70%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ededed, #ffffff);
+}
