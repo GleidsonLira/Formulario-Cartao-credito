@@ -28,5 +28,14 @@ main{
     position: relative;
     left: 45%;
     top: 20%;
+}
 
+.detail__card {
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.back__card {
+    
 }
