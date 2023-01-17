@@ -37,5 +37,11 @@ main{
 }
 
 .back__card {
-    
+    background-image: url(../img/bg-card-back.png);
+    background-size: contain;
+    width: 447px;
+    height: 245px;
+    position: relative;
+    left: 60%;
+    top: 24%;
 }
