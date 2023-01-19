@@ -20,6 +20,7 @@ main{
 
 .front__card {
     background-image: url(../img/bg-card-front.png);
+    background-repeat: no-repeat;
     background-size: contain;
     max-width: 447px;
     max-height: 245px;
@@ -116,4 +117,13 @@ form input {
     margin-bottom: 1em;
     border: 1px solid #cccccc;
     padding-left: 15px;
+}
+
+.button {
+    color: white;
+    height: 3em;
+    width: 63%;
+    margin-top: 2em;
+    transition: 0.5s;
+    background-color: #220930;
 }
