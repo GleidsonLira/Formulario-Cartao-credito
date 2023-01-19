@@ -87,3 +87,12 @@ main{
 .button{
     background-color: #220930;
 }
+
+form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #220930;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+}
