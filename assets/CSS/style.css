@@ -61,3 +61,15 @@ main{
     margin-left: 10%;
     text-transform: uppercase;
 }
+
+.monthHtml {
+    color: #F9EEFB;
+    font-size: 16px;
+    position: absolute;
+    top: 199px;
+    left: 350px;
+}
+
+.cvcHtml {
+    
+}
