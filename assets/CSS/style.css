@@ -77,3 +77,13 @@ main{
     top: 46%;
     left: 80%;
 }
+
+.formulario {
+    display: block;
+    margin: 20% 0 0 40%;
+    width: 50%;
+}
+
+.button{
+    background-color: #220930;
+}
