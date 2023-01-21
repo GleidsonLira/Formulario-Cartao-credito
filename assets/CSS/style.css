@@ -154,3 +154,19 @@ form input {
 .container__cvc > input{
     width: 100%;
 }
+
+input[type="text"]:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #63589A;
+}
+
+.visible{ display: block;}
+
+.ocult{ display: none;}
+
+.ocult{
+    margin-top: 320px;
+    width: 50%;
+    text-align: center;
+}
