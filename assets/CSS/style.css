@@ -136,3 +136,12 @@ form input {
 #cvc, #year, #month{
     display: inline-block;
 }
+
+.container__month{
+    width: 30%;
+    display: inline-block;
+}
+
+.container__month > input{
+    width: 30%;
+}
