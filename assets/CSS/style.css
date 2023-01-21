@@ -170,3 +170,15 @@ input[type="text"]:focus{
     width: 50%;
     text-align: center;
 }
+
+.ocult img{
+    display: block;
+    margin: 0 auto;
+}
+
+.ocult h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #220930;
+    margin: 1em 0;
+}
