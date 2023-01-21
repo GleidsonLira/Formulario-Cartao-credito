@@ -145,3 +145,12 @@ form input {
 .container__month > input{
     width: 30%;
 }
+
+.container__cvc {
+    width: 30%;
+    display: inline-block;
+}
+
+.container__cvc > input{
+    width: 100%;
+}
