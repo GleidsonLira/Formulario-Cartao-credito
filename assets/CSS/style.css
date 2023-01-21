@@ -127,3 +127,12 @@ form input {
     transition: 0.5s;
     background-color: #220930;
 }
+
+.button:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+#cvc, #year, #month{
+    display: inline-block;
+}
