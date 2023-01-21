@@ -182,3 +182,29 @@ input[type="text"]:focus{
     color: #220930;
     margin: 1em 0;
 }
+
+.ocult p{
+    font-size: 16px;
+    color: #939095;
+    font-weight: bold;
+}
+
+.ocult > .button{
+    color: white;
+    height: 3em;
+    width: 100%;
+    margin-top: 3em;
+    transition: 0.5s;
+    background-color: #220930;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.error{
+    top: -15px;
+    position: relative;
+    font-size: 10px;
+    color: red;
+    display: block;
+}
