@@ -89,6 +89,7 @@
         font-size: 13px;
         margin-bottom: 0.7em;
     }
+
     form  input{
         display: block;
         font-size: 18px;
@@ -105,3 +106,45 @@
         max-width: 350px;
         margin: 0 auto;
     }
+
+    #cvc, #year, #month{
+        display: inline-block;
+    }
+
+    .container__month{
+        width: 50%;
+        display: inline-block;    
+    }
+
+    .container__month > input{
+        width: 35%;
+    }
+
+    .container__cvc{
+        width: 46%;
+        display: inline-block;    
+    }
+
+    .container__cvc > input{
+        width: 90%;
+    }
+
+    .ocult{
+        margin: 100px   auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ocult > .button{
+        color: white;
+        height: 3em;
+        width: 100%;
+        max-width: 350px;
+        margin-top: 2em;
+        transition: 0.5s;
+        background-color: #220930;
+        box-shadow: none;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+    }}
