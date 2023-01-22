@@ -4,15 +4,34 @@
         flex-direction: column;
     }
 
-    .container-left{
+    .container__left{
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .container-right{
+    .container__right{
         width: 100%;
         background-color: white;
         height: auto;
     }
+
+    .front__card{
+        background-image: url(../img/bg-card-front.png) ;
+        background-size: contain;
+        width: 310px;
+        height: 170px;
+        position: absolute;
+        left: 0;
+        top:128px;
+        margin-left: 5%;
+    }
+
+    .detail__card{
+        position: initial;
+        top: 0;
+        left: 0;
+        width: 20%;
+        margin: 5%;
+     }
