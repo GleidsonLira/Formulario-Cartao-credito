@@ -28,3 +28,25 @@ const numberCardInput = document.getElementById('number')
 const monthInput = document.getElementById('month')
 const yearInput = document.getElementById('year')
 const cvcInput = document.getElementById('cvc')
+
+confirm.onclick = function (){
+    //Busca todos os valores dos inputs
+    userName = document.getElementById('name').value
+    numberCard = document.getElementById('number').value
+    month = document.getElementById('month').value
+    year = document.getElementById('year').value
+    cvc = document.getElementById('cvc').value
+
+    // Verifica se todos os inputs estão corretos
+    verificaInputNumberCard()
+    verificaInputsMonth()
+    verificaInputCVC()
+    //Verifica se pode fazer a lógica de trocar de tela
+    verificaLogicaTela()
+}
+
+//Recebendo elementos para inserir textos
+const numberHtml = document.getElementById('numberHtml')
+const nameHtml = document.getElementById('nameHtml')
+const monthHtml = document.getElementById('monthHtml')
+const cvcHtml = document.getElementById('cvcHtml')
