@@ -84,3 +84,45 @@ function verificaInputsMonth (){
         yearInput.style.border = "1px solid red";
     }
 }
+
+//Verifica se o input numero de cartao esta correto
+function verificaInputNumberCard (){
+    numberCard = Number(numberCard)
+    numberCard = String(numberCard)
+    if( numberCard.length == 16 ){
+        teste2 = true
+    }else{
+        numberCardInput.style.border = "1px solid red";
+        errorNumberCard.innerHTML = "Enter all your card numbers"
+    }
+}
+
+//Verifica se o input cvc esta correto
+function verificaInputCVC (){
+    cvc = Number(cvc)
+    cvc = String(cvc)
+    if(cvc == "NaN" ){
+        errorCvc.innerHTML = "Enter only numbers";
+        cvcInput.style.border = "1px solid red";
+    }else if (cvc.length == 3 ){
+        console.log('deu certo')
+        teste3 = true
+    }else{
+        errorCvc.innerHTML = "Enter your security code";
+        cvcInput.style.border = "1px solid red";
+    }
+}
+
+
+//Verifica se a logica de tela é verdadeira e então gera o novo html
+function verificaLogicaTela (){
+    if(teste1 == true && teste2 == true && teste3 == true){
+        concluido()
+        gerarHTML()
+    }
+}
+//quando acionada vai para a próxima tela
+function concluido (){
+    visible.style.display ="none"
+    ocult.style.display ="block"
+}
