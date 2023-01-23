@@ -50,3 +50,37 @@ const numberHtml = document.getElementById('numberHtml')
 const nameHtml = document.getElementById('nameHtml')
 const monthHtml = document.getElementById('monthHtml')
 const cvcHtml = document.getElementById('cvcHtml')
+
+//Gerando os elementos HTML na tela
+function gerarHTML (){
+    numberHtml.innerHTML = numberCard.substring(0,4) + " " + numberCard.substring(4,8) + " " + numberCard.substring(8,12) + " " +  numberCard.substring(12,16);
+    nameHtml.innerHTML = userName
+    monthHtml.innerHTML = `${month.padStart(2, '0')}/${year}`
+    cvcHtml.innerHTML = cvc
+    }
+
+    //Verifica se os inputs de mes e ano estao corretos
+function verificaInputsMonth (){
+    if(month > 0 && month < 13 && year > 21 && year < 40){
+        teste1 = true
+    } else if( month == "" && year == ""){
+        errorMonth.innerHTML = "Can't be blank";
+        monthInput.style.border = "1px solid red";
+        yearInput.style.border = "1px solid red";
+    }else if( month == "" ){
+        errorMonth.innerHTML = "Can't be blank";
+        monthInput.style.border = "1px solid red";
+    }
+    else if( year == "" ){
+        errorMonth.innerHTML = "Can't be blank";
+        yearInput.style.border = "1px solid red";
+    }else if (month < 1 || month > 12 || year < 22 || year > 39){
+        errorMonth.innerHTML = "   Enter only valid numbers";
+        monthInput.style.border = "1px solid red";
+        yearInput.style.border = "1px solid red";
+    }else{
+        errorMonth.innerHTML = "   Enter only numbers";
+        monthInput.style.border = "1px solid red";
+        yearInput.style.border = "1px solid red";
+    }
+}
