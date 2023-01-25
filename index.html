@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário cartão de Crédito</title>
-
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="stylesheet" href="./assets/CSS/mobile.css">
@@ -50,6 +50,7 @@
 
                     <label for="number">Número do cartão</label>
                     <input type="tel" id="number" placeholder="1234 5678 9123 0000" maxlength="16" required>
+
                     <span id="errorNumberCard" class="error"></span>
 
                     <div class="container__month">
@@ -57,6 +58,7 @@
                         <label class="label__inline" for="month">exp. date (mm/yy)</label>
                         <input type="tel" id="month" placeholder="MM" maxlength="2" required>
                         <input type="tel" id="year" placeholder="YY" maxlength="2" required>
+                        
                         <span id="errorMonth" class="error"></span>
 
                     </div>
@@ -80,6 +82,7 @@
                 <section class="ocult">
 
                     <img src="./assets/img/icon-complete.svg">
+
                     <h1>Obrigado!</h1>
                     <p>Adicionamos os detalhes do seu cartão</p>
                     <input type="submit" value="Continue" class="button" id="continue">
